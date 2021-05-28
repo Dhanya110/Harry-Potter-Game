@@ -97,7 +97,7 @@ function setup() {
 
 		villain1 = createSprite(190, 523, 20, 20);
 		villain1.addImage(v1i);
-		villain1.velocityY=-2;
+		//villain1.velocityY=-2;
 		villain1.scale = 0.06
 
 		villain2 = createSprite(190, 120, 20, 20);
@@ -137,7 +137,7 @@ function draw() {
 	background("black");
 	Engine.update(engine);
 	
-	;	
+		
 	
 	/* if(gameState===0){
 	themeSong.play();
